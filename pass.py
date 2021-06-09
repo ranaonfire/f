@@ -202,7 +202,7 @@ def bahi():
 def op():
     a = raw_input('Choose Option :')
     if a == '1':
-        os.system ('cd A')
-        os.system('python2 b.py')
+        os.system ('cd A && python2 b.py')
+      
     
 sameer()
